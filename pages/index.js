@@ -40,7 +40,7 @@ export default function Inicio() {
         "Los sistemas de información en laboratorios facilitan la gestión de muestras, resultados, registros y aseguran calidad de datos. Mejoran eficiencia, seguridad y toma de decisiones.",
       imgUrl: "/imgs/laboratorio.jpg",
       imgAlt: "Imagen expediente electrónico",
-      link: "/servicios/expediente",
+      link: "/servicios/sistemas",
       icon: <BiotechIcon />,
     },
     {
@@ -50,27 +50,27 @@ export default function Inicio() {
         "Soluciones de gestión hospitalaria personalizadas para que puedas mejorar la eficiencia de tus procesos y brindar una mejor atención médica a tus pacientes.",
       imgUrl: "/imgs/hospital.jpg",
       imgAlt: "Imagen expediente electrónico",
-      link: "/servicios/expediente",
+      link: "/servicios/gestion",
       icon: <LocalHospitalIcon />,
     },
     {
       id: 4,
-      titulo: "Factura electrónica",
+      titulo: "Factura Electrónica",
       texto:
         "Sistema de facturación electrónica personalizado que se adapte perfectamente a las necesidades de tu empresa, mejorando la eficiencia y precisión de tus procesos contables.",
       imgUrl: "/imgs/factura.jpg",
       imgAlt: "Imagen expediente electrónico",
-      link: "/servicios/expediente",
+      link: "/servicios/factura",
       icon: <ReceiptIcon />,
     },
     {
       id: 5,
       titulo: "Atención Médica Telefónica",
       texto:
-        "sistemas personalizados de atención médica telefónica para que tus pacientes puedan recibir asesoría médica sin tener que desplazarse, mejorando su acceso a la atención y reduciendo costos operativos.",
+        "Sistemas personalizados de atención médica telefónica para que tus pacientes puedan recibir asesoría médica sin tener que desplazarse, mejorando su acceso a la atención y reduciendo costos operativos.",
       imgUrl: "/imgs/atencionmedica.jpg",
       imgAlt: "Imagen expediente electrónico",
-      link: "/servicios/expediente",
+      link: "/servicios/atencion",
       icon: <ContactPhoneIcon />,
     },
   ];
@@ -93,7 +93,7 @@ export default function Inicio() {
 
         {/* Servicios principales */}
         <div className="bg-light p-8 sm:p-16 max-w-[1280px] mx-auto">
-          <p className="text-center font-thin text-gray-400">Morbi in sem</p>
+          <p className="text-center font-thin text-gray-400">Ofrecemos soluciones</p>
           <h2 className="text-dark text-center">
             Nuestros servicios principales
           </h2>

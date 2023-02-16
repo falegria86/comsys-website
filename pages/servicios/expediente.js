@@ -1,11 +1,9 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
 
 import MainLayout from "@/components/layouts/MainLayout";
 import Linea from "@/components/UI/Linea";
 
 const Servicio = () => {
-    const router = useRouter();
   return (
     <>
       <MainLayout>
@@ -32,11 +30,6 @@ const Servicio = () => {
               height={665}
               className="w-full"
             />
-          </div>
-
-          <div className="mt-16">
-            <h2 className="text-dark">Contáctanos</h2>
-            <Linea color="bg-blue-500" />
           </div>
         </div>
       </MainLayout>
