@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import BotonPrimario from "../UI/BotonPrimario";
 
 const Hero = () => {
@@ -12,8 +14,12 @@ const Hero = () => {
           sistemas médicos.
         </p>
         <div className="block sm:flex gap-3">
-          <BotonPrimario titulo={"Leer más"} bg={"bg-blue-700"} />
-          <BotonPrimario titulo={"Contáctanos"} bg={"bg-dark"} />
+          <Link href="/quienes">
+            <BotonPrimario titulo={"Leer más"} bg={"bg-blue-700"} />
+          </Link>
+          <Link href="/contacto">
+            <BotonPrimario titulo={"Contáctanos"} bg={"bg-dark"} />
+          </Link>
         </div>
       </div>
     </div>

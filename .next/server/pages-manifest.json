@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/contacto": "pages/contacto.js",
+  "/servicios/expediente": "pages/servicios/expediente.js",
+  "/servicios": "pages/servicios.js",
   "/quienes": "pages/quienes.js"
 }

@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import GroupsIcon from "@mui/icons-material/Groups";
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import WorkIcon from '@mui/icons-material/Work';
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import WorkIcon from "@mui/icons-material/Work";
 
 import MainLayout from "@/components/layouts/MainLayout";
 import BotonPrimario from "@/components/UI/BotonPrimario";
@@ -22,19 +23,23 @@ const Quienes = () => {
           />
           <div className="w-full mt-5 lg:w-2/4 lg:ml-8 lg:mt-0">
             <p className="text-dark">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-              odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-              turpis. Suspendisse urna nibh, viverra non, semper suscipit,
-              posuere a, pede. Praesent dapibus, neque id cursus faucibus,
-              tortor neque egestas auguae, eu vulputate magna eros eu erat.
-              Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
-              porttitor, facilisis luctus, metus.
+              En COMSYS, nos apasiona el desarrollo de sistemas de salud
+              innovadores que mejoren la atención médica y el bienestar de las
+              personas. Con años de experiencia en el campo, hemos adquirido un
+              conocimiento especializado que nos permite entender las
+              necesidades específicas de nuestros clientes y ofrecer soluciones
+              de alta calidad que se adapten perfectamente a sus necesidades.
+              Creemos en el poder de la tecnología para mejorar la vida de las
+              personas, y es por eso que utilizamos las últimas tecnologías y
+              herramientas en el desarrollo de nuestros sistemas de salud.
             </p>
             <p className="text-dark mt-5 lg:mt-16">
-              Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
-              mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi
-              in sem quis dui placerat ornare. Pellentesque odio nisi, euismod
-              in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+              Nuestro objetivo es ser un socio confiable y de confianza para
+              nuestros clientes en el campo de la salud, brindándoles soluciones
+              innovadoras y de alta calidad que les ayuden a mejorar sus
+              procesos y ofrecer mejores servicios de atención médica a sus
+              pacientes. Si buscas una empresa de confianza que te ayude a
+              avanzar en el mundo de la salud, ¡somos tu mejor opción!
             </p>
           </div>
         </div>
@@ -45,11 +50,13 @@ const Quienes = () => {
               <GroupsIcon className="text-5xl" />
               <div>
                 <h3>Equipo con gran experiencia</h3>
-                <p className="text-orange-600">Lorem ipsum dolor</p>
+                <p className="text-orange-600">
+                  Soluciones en base a la experiencia
+                </p>
                 <p className="text-dark/75">
-                  Donec nec justo eget felis facilisis fermentum. Aliquam
-                  porttitor mauris sit amet orci. Aenean dignissim pellentesque
-                  felis.
+                  Contamos con un equipo altamente experimentado y comprometido
+                  con brindar soluciones innovadoras y de alta calidad en
+                  sistemas de salud.
                 </p>
               </div>
             </div>
@@ -58,11 +65,12 @@ const Quienes = () => {
               <AccessTimeIcon className="text-5xl" />
               <div>
                 <h3>Entregas a tiempo</h3>
-                <p className="text-orange-600">Lorem ipsum dolor</p>
+                <p className="text-orange-600">
+                  Deja de sufrir por no tener tu proyecto a tiempo
+                </p>
                 <p className="text-dark/75">
-                  Donec nec justo eget felis facilisis fermentum. Aliquam
-                  porttitor mauris sit amet orci. Aenean dignissim pellentesque
-                  felis.
+                  Nos comprometemos a entregar proyectos a tiempo, garantizando
+                  la satisfacción y éxito de nuestros clientes.
                 </p>
               </div>
             </div>
@@ -71,11 +79,12 @@ const Quienes = () => {
               <WorkIcon className="text-5xl" />
               <div>
                 <h3>Gran valor</h3>
-                <p className="text-orange-600">Lorem ipsum dolor</p>
+                <p className="text-orange-600">
+                  Proyectos con valor y espíritu
+                </p>
                 <p className="text-dark/75">
-                  Donec nec justo eget felis facilisis fermentum. Aliquam
-                  porttitor mauris sit amet orci. Aenean dignissim pellentesque
-                  felis.
+                  Ofrecemos soluciones de alta calidad a precios competitivos,
+                  brindando un gran valor a nuestros clientes
                 </p>
               </div>
             </div>
@@ -86,12 +95,13 @@ const Quienes = () => {
           <div className="w-3/4 mx-auto text-center text-white">
             <h1>Crea tus oportunidades</h1>
             <p className="font-bold my-5">
-              Praesent dapibus, neque id cursus faucibus, tortor neque egestas
-              auguae, eu vulputate magna eros eu erat. Aliquam erat volutpat.
-              Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus,
-              metus.
+              Con nuestras soluciones de tecnología avanzada en sistemas de
+              salud, podrás crear nuevas oportunidades y llevar a tu empresa a
+              la vanguardia tecnológica.
             </p>
-            <BotonPrimario titulo="Contáctanos" bg="bg-blue-600" />
+            <Link href="/contacto">
+              <BotonPrimario titulo="Contáctanos" bg="bg-blue-600" />
+            </Link>
           </div>
         </div>
       </MainLayout>
