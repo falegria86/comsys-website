@@ -13,8 +13,8 @@ const Contacto = () => {
   return (
     <>
       <MainLayout>
-        <Image src={imgUrl} className="mt-8" />
-        <div className="bg-light p-8 lg:p-16 md:flex">
+        <Image src={imgUrl} className="mt-8 w-full" />
+        <div className="bg-light p-8 lg:p-16 md:flex max-w-[1280px] mx-auto">
           <div className="w-full">
             <p className="text-adorno">Contáctanos</p>
             <h2 className="text-dark mt-2 text-2xl sm:text-left sm:text-3xl">¿Cómo podemos ayudarte?</h2>

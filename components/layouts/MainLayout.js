@@ -11,10 +11,10 @@ const MainLayout = ({ children, titulo }) => {
       </Head>
       <div className="bg-slate-100">
         {/* Hero */}
-        <div className="m-0 px-5 sm:px-16 pt-8 max-w-[1280px] mx-auto">
+        <div className="m-0 px-5 sm:px-16 pt-8 w-full mx-auto">
           <Navbar />
         </div>
-        <div className="max-w-[1280px] mx-auto">{children}</div>
+        <div className="w-full mx-auto">{children}</div>
       </div>
       <Footer />
     </div>

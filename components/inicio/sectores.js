@@ -7,7 +7,7 @@ import Linea from "../UI/Linea";
 
 const Sectores = () => {
   return (
-    <div className="block lg:flex max-w-[1280px] mx-auto">
+    <div className="block lg:flex w-full mx-auto">
       <div className="bg-blue-900 w-full lg:w-2/3 p-16">
         <p className="text-adorno">Soluciones a tu alcance</p>
         <h2 className="text-white">Conoce más sobe nosotros</h2>

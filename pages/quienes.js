@@ -14,8 +14,8 @@ const Quienes = () => {
   return (
     <>
       <MainLayout>
-        <Image src={imgHeader} className="mt-8" />
-        <div className="bg-light p-8 lg:p-16 lg:flex">
+        <Image src={imgHeader} className="mt-8 w-full" />
+        <div className="bg-light p-8 lg:p-16 lg:flex max-w-[1280px] mx-auto">
           <Image
             src={imgDentro}
             alt={"Programando"}
@@ -44,7 +44,7 @@ const Quienes = () => {
           </div>
         </div>
 
-        <div className="bg-lightAlt p-8 lg:p-16">
+        <div className="bg-lightAlt p-8 lg:p-16 max-w-[1280px] mx-auto">
           <div className="bg-darkerBG p-8">
             <div className="flex items-center gap-5 text-dark mb-8">
               <GroupsIcon className="text-5xl" />

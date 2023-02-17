@@ -4,7 +4,7 @@ import imgUrl from "../../assets/imgs/comsys-logo-blanco.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#141414] max-w-[1280px] mx-auto">
+    <footer className="bg-[#141414] w-full mx-auto">
       <div className="max-w-screen-xl px-8 py-8 mx-auto space-y-8 lg:space-y-16 lg:p-16">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>

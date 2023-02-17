@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
-import BiotechIcon from '@mui/icons-material/Biotech';
-import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
-import ReceiptIcon from '@mui/icons-material/Receipt';
-import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
+import BiotechIcon from "@mui/icons-material/Biotech";
+import LocalHospitalIcon from "@mui/icons-material/LocalHospital";
+import ReceiptIcon from "@mui/icons-material/Receipt";
+import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 
 import MainLayout from "@/components/layouts/MainLayout";
 import imgUrl from "../../assets/imgs/servicios.jpg";
@@ -67,8 +67,8 @@ const Servicios = () => {
   return (
     <>
       <MainLayout>
-        <Image src={imgUrl} className="mt-8" />
-        <div className="bg-light p-8 lg:p-16 lg:flex">
+        <Image src={imgUrl} className="mt-8 w-full" />
+        <div className="bg-light p-8 lg:p-16 lg:flex max-w-[1280px] mx-auto">
           <div className="grid w-2/4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:w-11/12 lg:w-full gap-3 mx-auto">
             {cards.map((card) => (
               <CardServicio

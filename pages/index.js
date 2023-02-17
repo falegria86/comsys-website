@@ -83,7 +83,7 @@ export default function Inicio() {
 
       <div className="bg-slate-100">
         {/* Hero */}
-        <div className="bg-[url('../assets/imgs/hero.jpg')] bg-cover bg-right md:bg-center xl:bg-top bg-no-repeat w-full h-[580px] m-0 px-5 sm:px-16 pt-8 max-w-[1280px] mx-auto">
+        <div className="bg-[url('../assets/imgs/hero.jpg')] bg-cover bg-right md:bg-center xl:bg-top bg-no-repeat w-full h-[580px] m-0 px-5 sm:px-16 pt-8 mx-auto">
           <Navbar />
           <Hero />
         </div>
